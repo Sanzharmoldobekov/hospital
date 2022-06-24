@@ -78,4 +78,3 @@ class Hospital(models.Model):
         return f'{self.classification_code}, {self.name}'
 
 
-

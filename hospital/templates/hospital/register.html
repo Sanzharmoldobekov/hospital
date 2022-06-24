@@ -1,0 +1,15 @@
+
+{% load static %}
+{% block content %}
+
+<h1>Register</h1>
+<br>
+<br>
+<br>
+<form action="" method="POST">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <button type="submit">SEND</button>
+</form>
+
+{% endblock content %}
